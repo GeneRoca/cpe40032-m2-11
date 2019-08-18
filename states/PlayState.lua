@@ -164,7 +164,7 @@ function PlayState:render()
         love.graphics.setFont(hugeFont)
         love.graphics.printf('PAUSED', 0, 100, VIRTUAL_WIDTH, 'center')
         love.graphics.setFont(flappyFont)
-        love.graphics.printf('Press R to resume', 0, 180, VIRTUAL_WIDTH, 'center')
+        love.graphics.printf('Press P to resume', 0, 180, VIRTUAL_WIDTH, 'center')
     end
     
 end
